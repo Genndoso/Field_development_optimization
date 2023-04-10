@@ -1,0 +1,966 @@
+    Opened LOG FILE         on unit 10, filename is 'C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model\model_upscaling2_5_3.log'
+ ********************************************************************************
+ *                                                                              *
+ *                                IMEX  2016.10                                 *
+ *                   Adaptive - Implicit Black Oil Simulator                    *
+ *                         General Release for Win x64                          *
+ *                            2016-Aug-04   16:56:07                            *
+ *                                                                              *
+ *                          (c) Copyright 1977 - 2016                           *
+ *                Computer Modelling Group Ltd., Calgary, Canada                *
+ *                             All Rights Reserved                              *
+ *                                                                              *
+ ********************************************************************************
+
+
+ Command-line Arguments:  -dimsum
+                          -wd C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model
+                          -log
+                          -f C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model\model_upscaling2_5_3.dat
+
+ Date and Time of Start of Run:  Apr 10, 2023  20:34:38
+
+
+*** Input/Output files specification :
+    Opened data file        on unit 11, filename is 'C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model\model_upscaling2_5_3.dat'
+    Opened Scratch file     on unit 12
+    Opened output file      on unit 13, filename is 'C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model\model_upscaling2_5_3.out'
+    Opened SR3-OUT          on unit 14, filename is 'C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model\model_upscaling2_5_3.sr3'
+    Opened INDEX-OUT        on unit 15, filename is 'C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model\model_upscaling2_5_3.irf'
+    Opened MAIN-RESULTS-OUT on unit 16, filename is 'C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model\model_upscaling2_5_3.mrf'
+    Opened Restart-SR3      on unit 17, filename is 'C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model\model_upscaling2_5_3.rstr.sr3'
+    Opened Restart-NDX      on unit 18, filename is 'C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model\model_upscaling2_5_3.rstr.irf'
+    Opened Restart-BIN      on unit 19, filename is 'C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model\model_upscaling2_5_3.rstr.mrf'
+
+ ===================== WARNING (from subroutine: INIORD) ======================
+  Solvent property related printout is being disabled
+  This MODEL option does not allow solvent property output.
+  Line: 32   File Name: C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius20
+ ==============================================================================
+
+    Opened GRID scratchfile on unit 20
+
+ ===================== WARNING (from subroutine: ENDPTS) ======================
+  Connate water is greater than critical water for rel perm table number 1, I,J,K Location = 2,5,1.
+  Reset critical water equal to connate water (no further warnings of this type will be printed).
+ ==============================================================================
+
+
+ ===================== SUMMARY (from subroutine: INDATA) ======================
+  Reading of initial data is complete.
+  Simulation will stop if there were error messages.
+     2 Warning messages.    0 Error messages.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 3,18,1, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.3432E-03 at (Sw=0.6399E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 4,18,1, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7167E-04 at (Sw=0.6723E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 5,18,1, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.1728E-03 at (Sw=0.6615E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 2,19,1, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.3432E-03 at (Sw=0.6399E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 23,23,1, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7048E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 22,24,1, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7114E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 6,24,2, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.6647E-04 at (Sw=0.6765E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 19,19,3, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.1894E-04 at (Sw=0.6603E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 1,6,5, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.4387E-05 at (Sw=0.6574E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 2,6,5, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.3155E-05 at (Sw=0.6508E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 4,7,5, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.6194E-05 at (Sw=0.6559E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 7,11,5, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.3204E-04 at (Sw=0.6861E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 9,11,5, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.1781E-05 at (Sw=0.6770E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 22,6,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7235E-04 at (Sw=0.6722E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 25,6,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7102E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 26,6,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.6976E-04 at (Sw=0.6725E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 24,7,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7237E-04 at (Sw=0.6722E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 12,8,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.1716E-03 at (Sw=0.6616E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 19,8,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7148E-04 at (Sw=0.6723E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 11,9,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.1716E-03 at (Sw=0.6616E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 9,10,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.1220E-03 at (Sw=0.6671E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 10,10,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.6293E-04 at (Sw=0.6778E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 11,10,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.1716E-03 at (Sw=0.6616E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 13,11,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7057E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 14,11,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7108E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 15,11,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7106E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 23,11,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7225E-04 at (Sw=0.6723E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 21,12,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7231E-04 at (Sw=0.6723E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 23,12,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7229E-04 at (Sw=0.6723E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 15,13,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7235E-04 at (Sw=0.6722E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 16,13,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7235E-04 at (Sw=0.6722E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 18,13,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7188E-04 at (Sw=0.6723E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 21,13,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7189E-04 at (Sw=0.6723E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 23,13,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7231E-04 at (Sw=0.6723E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 27,13,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7066E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 28,13,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7064E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 22,14,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7145E-04 at (Sw=0.6723E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 23,14,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7232E-04 at (Sw=0.6723E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 4,16,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7111E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 4,17,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.1726E-03 at (Sw=0.6615E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 5,17,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7145E-04 at (Sw=0.6723E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 6,17,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7110E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 18,17,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7229E-04 at (Sw=0.6723E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 4,18,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.1725E-03 at (Sw=0.6615E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 5,18,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7141E-04 at (Sw=0.6723E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 18,19,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7101E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 19,19,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7106E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 11,20,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7142E-04 at (Sw=0.6723E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 18,20,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.6977E-04 at (Sw=0.6725E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 19,20,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7108E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 21,20,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7107E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 16,21,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.2905E-03 at (Sw=0.6509E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 17,21,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7037E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 18,21,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7033E-04 at (Sw=0.6725E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 20,21,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7108E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 21,21,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7105E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 15,22,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.6987E-04 at (Sw=0.6725E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 19,22,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7103E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 20,22,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7104E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 21,22,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7103E-04 at (Sw=0.6724E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 14,23,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7029E-04 at (Sw=0.6725E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 17,23,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.6988E-04 at (Sw=0.6725E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 14,24,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.7030E-04 at (Sw=0.6725E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 15,24,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.6989E-04 at (Sw=0.6725E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 16,24,6, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.6988E-04 at (Sw=0.6725E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 14,6,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.9986E-05 at (Sw=0.6588E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 7,7,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.2951E-03 at (Sw=0.6526E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 12,7,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.1001E-04 at (Sw=0.6588E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 13,7,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.1001E-04 at (Sw=0.6588E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 14,7,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.9991E-05 at (Sw=0.6588E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 15,7,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.9963E-05 at (Sw=0.6588E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 16,7,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.9963E-05 at (Sw=0.6588E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 5,8,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.5354E-05 at (Sw=0.6522E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 22,8,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.3286E-03 at (Sw=0.6417E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 7,10,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.9995E-05 at (Sw=0.6588E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 8,10,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.9990E-05 at (Sw=0.6588E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 9,10,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.1001E-04 at (Sw=0.6588E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 9,11,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.9978E-05 at (Sw=0.6588E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 19,11,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.2836E-03 at (Sw=0.6483E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 20,12,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.5914E-04 at (Sw=0.6791E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 21,14,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.9417E-05 at (Sw=0.6587E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 22,14,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.9421E-05 at (Sw=0.6587E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 23,14,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.9400E-05 at (Sw=0.6587E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 4,17,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.6978E-04 at (Sw=0.6748E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 12,18,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.2868E-03 at (Sw=0.6495E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 18,18,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.9928E-05 at (Sw=0.6588E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 13,22,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.9163E-05 at (Sw=0.6587E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 13,23,7, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.9158E-05 at (Sw=0.6587E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 14,7,8, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.5115E-04 at (Sw=0.6666E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 15,7,8, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.6636E-04 at (Sw=0.6765E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 13,8,8, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.4943E-04 at (Sw=0.6816E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 5,9,8, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.5114E-04 at (Sw=0.6666E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 19,9,8, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.4496E-04 at (Sw=0.6220E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 17,10,8, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.5117E-04 at (Sw=0.6666E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 25,11,8, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.5142E-04 at (Sw=0.6666E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 25,12,8, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.4916E-04 at (Sw=0.6816E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 26,12,8, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.3744E-03 at (Sw=0.6360E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 24,13,8, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.3744E-03 at (Sw=0.6360E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 25,13,8, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.3743E-03 at (Sw=0.6360E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  For block 5,15,8, rock type=   1: Stone's 2 evaluates Kro(So=0) > 0.
+  e.g. Kro=0.1618E-03 at (Sw=0.6248E+00,Sg=1-Sw). Check Rock-Fluid data of the block.
+ ==============================================================================
+
+
+ ===================== WARNING (from subroutine: KROCHK) ======================
+  Maximum 100 of Kro(So=0) > 0 warning messages were issued.
+  No more checks for Stone's 2nd method will be carried out.
+ ==============================================================================
+
+
+
+                          Global Storage Usage
+                          ====================
+
+             Section           Bytes          Mbytes   # Objects
+        ------------    ------------    ------------   ---------
+              GRMOD0        15944480          15.206         448
+              MXSLVR        15808008          15.076         108
+               IMEX1        11561052          11.025         619
+               IMEX2         8171486           7.793         679
+               IMEX3         6250088           5.961         245
+              MXGR01         3618944           3.451          23
+             MXSLVR1         2565536           2.447          37
+               POINT         2434372           2.322          74
+              WSCOM1          892528           0.851           3
+              GRMOD1          548728           0.523         141
+               PRTCM          517008           0.493          17
+              SECTOR          262676           0.251          11
+              WMCOM1          228555           0.218         936
+              MXWELL          211796           0.202         249
+             PTLOCAL           75988           0.072           2
+              KWCOM1           34719           0.033          48
+              MXPRSL           24040           0.023          12
+              SR2COM           22142           0.021          88
+              EQTPAR           11324           0.011          69
+           GLOBSTORE            7478           0.007          27
+              MXINIT            3062           0.003          19
+             CMGFILE            1184           0.001          18
+              GRMOD2             124           0.000          30
+              WMCOM3              92           0.000           4
+              WMCOM5              60           0.000          15
+              WMCOM2              36           0.000           9
+        ------------    ------------    ------------   ---------
+               Total        69195506          65.990        3931
+
+                                    I M E X   T I M E   S T E P   S U M M A R Y
+ ==================================================================================================================
+    Time Step           Time                  Total Production             Total Injection  Total Max. Max. Change
+ ---------------- ---------------- -------------------------------------- -----------------  PV   Mat. ------------
+                C                    Oil      Gas     Water   GOR.  Wat.    Gas     Water   Avg.  bal. Satur. Pres.
+        Size    U                                              M3/   Cut                    Pres. err. DSMAX  DPMAX
+  No.   Days IT T Days   yy:mm:dd    M3/D    MM3/D     M3/D     M3    %    MM3/D     M3/D    kPa   %           kPa
+ ------ ---- -- - ----- ---------- -------- -------- -------- ----- ----- -------- -------- ----- ---- ------ -----
+     1w 1.00 4  0 1.000 2016:06:02                                                           7692 .01w -.094o   353
+     2  1.06 3  0 2.061 2016:06:03                                                           7685 .02w -.068o  69.9
+     3  1.56 4  0 3.623 2016:06:05                                                           7681 .02w -.064o  50.4
+     4  2.44 4  0 6.058 2016:06:07                                                           7678 .02w -.052o -40.0
+     5  4.69 2  0 10.75 2016:06:12                                                           7674 .03w  .052o -37.8
+     6  8.99 5  0 19.74 2016:06:21                                                           7671 .04w  .091o  70.5
+     7  10.3 5  0 30.00 2016:07:01                                                           7670 .05w  .095o -29.1
+     8w 1.00 1  0 31.00 2016:07:02                                                           7670 .05w  .009o  5.66
+     9  5.00 2  0 36.00 2016:07:07                                                           7670 .06w  .040o  24.7
+    10  12.5 3  0 48.50 2016:07:20                                                           7668 .06w  .095o  22.5
+    11  12.5 2  0 61.00 2016:08:01                                                           7667 .07w  .077o  28.2
+    12w 1.00 1  0 62.00 2016:08:02 41.04194 1.124410          27.40                          7667 .07w  .006o -53.8
+    13  5.00 2  0 67.00 2016:08:07 41.04194 1.124249          27.39                          7666 .08w  .017o -30.5
+    14  25.0 4  0 92.00 2016:09:01 41.04194 1.124048          27.39                          7662 .09w -.063o -51.4
+    15w 1.00 3  0 93.00 2016:09:02 113.0935 3.095279          27.37                          7662 .09w -.003o -36.2
+    16  5.00 2  0 98.00 2016:09:07 113.0935 3.088056          27.31                          7661 .09w -.012o -47.0
+    17  24.0 3  0 122.0 2016:10:01 113.0935 3.076311          27.20                          7656 .10w -.050o -75.4
+    18w 1.00 3  0 123.0 2016:10:02 618.8385 16.78441          27.12                          7654 .10w -.004o  -204
+    19  5.00 3  0 128.0 2016:10:07 618.8385 16.60977          26.84                          7646 .10w  .016o  -164
+    20  25.0 6  0 153.0 2016:11:01 618.8385 16.35397          26.43                          7626 .08w  .163o  -218
+
+                                    I M E X   T I M E   S T E P   S U M M A R Y
+ ==================================================================================================================
+    Time Step           Time                  Total Production             Total Injection  Total Max. Max. Change
+ ---------------- ---------------- -------------------------------------- -----------------  PV   Mat. ------------
+                C                    Oil      Gas     Water   GOR.  Wat.    Gas     Water   Avg.  bal. Satur. Pres.
+        Size    U                                              M3/   Cut                    Pres. err. DSMAX  DPMAX
+  No.   Days IT T Days   yy:mm:dd    M3/D    MM3/D     M3/D     M3    %    MM3/D     M3/D    kPa   %           kPa
+ ------ ---- -- - ----- ---------- -------- -------- -------- ----- ----- -------- -------- ----- ---- ------ -----
+    21w 1.00 2  0 154.0 2016:11:02 901.2727 24.12702          26.77                          7623 .07w -.017o  -104
+    22  5.00 3  0 159.0 2016:11:07 901.2727 23.99125          26.62                          7615 .07w  .076w  -102
+    23  6.61 3  0 165.6 2016:11:14 901.2727 23.88050          26.50                          7607 .07w -.065o -76.7
+    24  8.70 3  0 174.3 2016:11:22 901.2727 23.78173          26.39                          7599 .06w -.094o -60.3
+    25  8.70 3  0 183.0 2016:12:01 901.2727 23.70619          26.30                          7592 .06w -.104o -48.8
+    26w 8.40 6  0 191.4 2016:12:09 824.8183 21.65574          26.26                          7586 .06w -.064o  -186
+    27  11.3 4  0 202.7 2016:12:21 824.8183 21.59248          26.18                          7580 .06w -.080o  -105
+    28  11.3 3  0 214.0 2017:01:01 824.8183 21.54133          26.12                          7574 .05w -.106o -68.1
+    29w 5.34 2  1 219.3 2017:01:06 891.6268 23.21995          26.04                          7571 .05w -.052o -53.1
+    30  10.4 5  0 229.7 2017:01:17 891.6268 23.15211          25.97                          7565 .05w -.107o -88.0
+    31  7.65 2  0 237.3 2017:01:24 891.6268 23.10990          25.92                          7561 .05w -.061o -36.9
+    32  7.65 5  0 245.0 2017:02:01 891.6268 23.07373          25.88                          7557 .05w -.041o -33.1
+    33w 14.0 2  0 259.0 2017:02:15 872.7347 22.53638          25.82                          7551 .05w -.085o  61.5
+    34  14.0 3  0 273.0 2017:03:01 867.1056 22.34895 5.629190 25.77 .6450                    7546 .05w -.077o  53.1
+    35w 15.5 3  0 288.5 2017:03:17 757.2836 19.53404 8.130927 25.79 1.062                    7542 .05w -.090o  59.0
+    36  15.5 5  0 304.0 2017:04:01 754.8675 19.45953 10.54702 25.78 1.378                    7538 .05w -.055o -36.2
+    37w 30.0 5  0 334.0 2017:05:01 699.0561 17.98744 23.41865 25.73 3.241                    7531 .05w -.103o  76.4
+    38w 31.0 4  0 365.0 2017:06:01 604.3960 15.63301 56.24809 25.87 8.514                    7527 .05w -.086o   159
+    39w 30.0 4  0 395.0 2017:07:01 544.7214 14.17732 74.95031 26.03 12.10                    7525 .05w  .079w   172
+    40w 1.00 2  0 396.0 2017:07:02 443.1965 11.49490 24.70564 25.94 5.280          109.3871  7526 .05w  .005w  58.4
+
+                                    I M E X   T I M E   S T E P   S U M M A R Y
+ ==================================================================================================================
+    Time Step           Time                  Total Production             Total Injection  Total Max. Max. Change
+ ---------------- ---------------- -------------------------------------- -----------------  PV   Mat. ------------
+                C                    Oil      Gas     Water   GOR.  Wat.    Gas     Water   Avg.  bal. Satur. Pres.
+        Size    U                                              M3/   Cut                    Pres. err. DSMAX  DPMAX
+  No.   Days IT T Days   yy:mm:dd    M3/D    MM3/D     M3/D     M3    %    MM3/D     M3/D    kPa   %           kPa
+ ------ ---- -- - ----- ---------- -------- -------- -------- ----- ----- -------- -------- ----- ---- ------ -----
+    41  5.00 2  0 401.0 2017:07:07 441.4796 11.45385 26.42250 25.94 5.647          109.3871  7527 .05w  .018w  85.4
+    42  25.0 4  0 426.0 2017:08:01 433.9790 11.28765 33.92314 26.01 7.250          109.3871  7531 .05w -.095o   124
+    43w 15.5 6  0 441.5 2017:08:17 347.0875 9.056094 34.52101 26.09 9.046          335.8615  7538 .05w  .111w   205
+    44  7.75 2  0 449.2 2017:08:24 345.2098 9.024079 36.39874 26.14  9.54          335.8615  7542 .05w  .043w  61.9
+    45  7.75 2  0 457.0 2017:09:01 343.3957 8.991674 38.21280 26.18 10.01          335.8615  7545 .05w -.042o  51.3
+    46w 1.00 2  0 458.0 2017:09:02 184.0738 4.801283 11.48608 26.08 5.873          360.9665  7546 .05w  .006w  69.2
+    47  5.00 1  0 463.0 2017:09:07 183.7440 4.799007 11.81584 26.12 6.042          360.9665  7549 .05w -.029o  94.2
+    48  12.0 2  0 475.0 2017:09:19 182.8926 4.786676 12.66719 26.17 6.477          360.9665  7557 .06w -.074o   107
+    49  12.0 4  0 487.0 2017:10:01 182.0103 4.772284 13.54954 26.22 6.929          360.9665  7564 .06w -.078o  -129
+    50w 15.4 2  0 502.4 2017:10:16 125.2658 3.270483 14.20007 26.11 10.18          326.4515  7572 .06w -.058o   140
+    51  15.6 5  0 518.0 2017:11:01 122.8870 3.214388 16.57881 26.16 11.89          326.4515  7581 .07w  .060w  68.2
+    52w 1.00 3  0 519.0 2017:11:02 415.8063 11.17326 47.33355 26.87 10.22          466.2000  7582 .07w  .005w   102
+    53  5.00 3  0 524.0 2017:11:07 413.5940 11.06107 49.54579 26.74 10.70          466.2000  7583 .07w  .034w -83.4
+    54  12.0 3  0 536.0 2017:11:19 406.5783 10.83882 56.56153 26.66 12.21          466.2000  7583 .07w  .056o -71.1
+    55  12.0 3  0 548.0 2017:12:01 399.6326 10.64158 63.50722 26.63 13.71          466.2000  7583 .07w -.049o -34.7
+    56w 15.5 4  0 563.5 2017:12:17 518.7973 13.74318 102.6967 26.49 16.52          541.9355  7582 .07w  .074o  -140
+    57  15.5 3  0 579.0 2018:01:01 506.5867 13.38994 114.9072 26.43 18.49          541.9355  7580 .07w  .153o  -186
+    58w 10.1 2  0 589.1 2018:01:11 530.8702 14.00841 131.4413 26.39 19.85          600.0323  7580 .07w  .148o -46.5
+    59  6.83 2  0 595.9 2018:01:18 525.1936 13.85085 137.1178 26.37 20.70          600.0323  7580 .07w  .103o  2061
+    60  6.65 2  0 602.6 2018:01:25 519.9721 13.70851 142.3394 26.36 21.49          600.0323  7579 .07w  .065o  -275
+
+                                    I M E X   T I M E   S T E P   S U M M A R Y
+ ==================================================================================================================
+    Time Step           Time                  Total Production             Total Injection  Total Max. Max. Change
+ ---------------- ---------------- -------------------------------------- -----------------  PV   Mat. ------------
+                C                    Oil      Gas     Water   GOR.  Wat.    Gas     Water   Avg.  bal. Satur. Pres.
+        Size    U                                              M3/   Cut                    Pres. err. DSMAX  DPMAX
+  No.   Days IT T Days   yy:mm:dd    M3/D    MM3/D     M3/D     M3    %    MM3/D     M3/D    kPa   %           kPa
+ ------ ---- -- - ----- ---------- -------- -------- -------- ----- ----- -------- -------- ----- ---- ------ -----
+    61  7.40 1  0 610.0 2018:02:01 514.2538 13.55418 148.0577 26.36 22.35          600.0323  7579 .07w  .045o  -169
+    62w 14.0 1  0 624.0 2018:02:15 527.1410 13.87729 166.3947 26.33 23.99          600.0000  7577 .07w  .116o -1877
+    63  7.00 1  0 631.0 2018:02:22 520.9884 13.71118 172.5474 26.32 24.88          600.0000  7577 .07w  .057o  1493
+    64  7.00 2  0 638.0 2018:03:01 514.8613 13.54664 178.6744 26.31 25.76          600.0000  7576 .07w  .055o  45.6
+    65w 12.7 6  0 650.7 2018:03:14 523.6971 13.73258 192.4567 26.22 26.87          202.4903  7561 .07w -.042o  -231
+    66  18.3 3  0 669.0 2018:04:01 510.6220 13.34382 205.5317 26.13 28.70          202.4903  7552 .06w -.049o  -130
+    67w 30.0 3  0 699.0 2018:05:01 469.5170 12.24480 220.1216 26.08 31.92          253.1333  7544 .06w  .051o -96.8
+    68w 31.0 5  0 730.0 2018:06:01 469.7210 12.25122 263.7629 26.08 35.96          572.9355  7549 .06w  .144o  -390
+    69w 15.0 4  0 745.0 2018:06:16 319.3039 8.333565 190.4576 26.10 37.36          540.0000  7553 .06w  .056o   249
+    70  15.0 2  0 760.0 2018:07:01 311.5140 8.146415 198.2475 26.15 38.89          540.0000  7556 .06w  .077o  -263
+    71w 15.5 3  0 775.5 2018:07:17 388.0855 10.19853 220.7754 26.28 36.26          388.1614  7554 .06w -.048o  -271
+    72  15.5 2  0 791.0 2018:08:01 380.2321  9.98319 228.6289 26.26 37.55          388.1614  7553 .06w -.048o   138
+    73w 31.0 4  0 822.0 2018:09:01 332.2887 8.721800 288.1812 26.25 46.45          384.5484  7547 .06w  .140o  -186
+    74w 15.0 2  0 837.0 2018:09:16 474.1282 12.37573 375.5403 26.10 44.20          481.5667  7544 .06w -.053o  -159
+    75  15.0 2  0 852.0 2018:10:01 459.7200 11.97542 389.9485 26.05 45.89          481.5667  7541 .05w -.054o  68.8
+    76w 15.5 3  0 867.5 2018:10:17 440.6931 11.47074 398.8153 26.03 47.51          428.2258  7537 .05w -.057o -90.1
+    77  15.5 3  0 883.0 2018:11:01 427.2019 11.11327 412.3065 26.01 49.11          428.2258  7534 .05w -.044o -30.7
+    78w 30.0 2  0 913.0 2018:12:01 436.7016 11.26667 477.3721 25.80 52.22          307.9067  7523 .05w -.057w  -153
+    79w 31.0 3  0 944.0 2019:01:01 433.9035 11.11424 527.5458 25.61 54.87          287.3548  7512 .04w -.061o  -123
+    80w 31.0 3  0 975.0 2019:02:01 418.1319 10.67366 557.9374 25.53 57.16          288.8710  7503 .04w -.082o -63.9
+
+                                    I M E X   T I M E   S T E P   S U M M A R Y
+ ==================================================================================================================
+    Time Step           Time                  Total Production             Total Injection  Total Max. Max. Change
+ ---------------- ---------------- -------------------------------------- -----------------  PV   Mat. ------------
+                C                    Oil      Gas     Water   GOR.  Wat.    Gas     Water   Avg.  bal. Satur. Pres.
+        Size    U                                              M3/   Cut                    Pres. err. DSMAX  DPMAX
+  No.   Days IT T Days   yy:mm:dd    M3/D    MM3/D     M3/D     M3    %    MM3/D     M3/D    kPa   %           kPa
+ ------ ---- -- - ----- ---------- -------- -------- -------- ----- ----- -------- -------- ----- ---- ------ -----
+    81w 28.0 2  0  1003 2019:03:01 402.1523 10.23818 577.9175 25.46 58.97          289.2914  7496 .04w -.092o -86.4
+    82w 31.0 5  0  1034 2019:04:01 390.4830  9.92301 600.3880 25.41 60.59          246.0645  7488 .04w -.068o -50.5
+    83w 30.0 4  0  1064 2019:05:01 377.1068  9.56979 613.7641 25.38 61.94          246.0645  7482 .04w -.048o -52.1
+    84w 1.00 2  0  1065 2019:05:02 324.3768 8.317708 479.0465 25.64 59.63          246.0645  7482 .04w -.004g   119
+    85  5.00 3  0  1070 2019:05:07 320.8589 8.242811 482.5644 25.69 60.06          246.0645  7482 .04w -.008o   135
+    86  25.0 2  0  1095 2019:06:01 311.5801 8.020874 491.8432 25.74 61.22          246.0645  7483 .04w -.036o   187
+    87w 30.0 5  0  1125 2019:07:01 301.9715 7.782795 501.4518 25.77 62.41          246.0645  7484 .04w -.045o  -143
+    88w 31.0 2  0  1156 2019:08:01 293.4260 7.569263 509.9973 25.80 63.48          246.0645  7485 .04w  .043w -71.1
+    89w 31.0 2  0  1187 2019:09:01 286.1147 7.386148 517.3086 25.82 64.39          246.0645  7485 .04w -.066o  -104
+    90w 30.0 5  0  1217 2019:10:01 279.3646 7.216696 524.0587 25.83 65.23          246.0645  7485 .04w -.109o -54.7
+    91w 15.5 2  0  1233 2019:10:17 275.6590 7.123596 527.7644 25.84 65.69          246.0645  7485 .04w  .072w  10.7
+    92  15.5 2  0  1248 2019:11:01 272.2819 7.038580 531.1414 25.85 66.11          246.0645  7485 .04w -.077o  9.03
+    93w 15.0 2  0  1263 2019:11:16 269.3262 6.964188 534.0971 25.86 66.48          246.0645  7484 .04w -.078o -21.7
+    94  15.0 2  0  1278 2019:12:01 266.6085 6.895800 536.8148 25.86 66.82          246.0645  7484 .04w  .061w  13.4
+    95w 15.5 2  0  1294 2019:12:17 263.9991 6.830140 539.4242 25.87 67.14          246.0645  7484 .04w -.020o -51.6
+    96  15.5 2  0  1309 2020:01:01 261.5758 6.769197 541.8476 25.88 67.44          246.0645  7483 .04w -.017o -52.4
+    97w 31.0 2  0  1340 2020:02:01 257.4731 6.665902 545.9502 25.89 67.95          246.0645  7483 .04w  .037g   605
+    98w 29.0 2  0  1369 2020:03:01 253.6746 6.570230 549.7488 25.90 68.43          246.0645  7482 .04w  .035g -26.9
+    99w 31.0 2  0  1400 2020:04:01 249.8374 6.473459 553.5859 25.91 68.90          246.0645  7481 .04w -.043o -18.0
+   100w 30.0 2  0  1430 2020:05:01 246.2008 6.381682 557.2225 25.92 69.36          246.0645  7480 .04w -.028o -37.7
+
+                                    I M E X   T I M E   S T E P   S U M M A R Y
+ ==================================================================================================================
+    Time Step           Time                  Total Production             Total Injection  Total Max. Max. Change
+ ---------------- ---------------- -------------------------------------- -----------------  PV   Mat. ------------
+                C                    Oil      Gas     Water   GOR.  Wat.    Gas     Water   Avg.  bal. Satur. Pres.
+        Size    U                                              M3/   Cut                    Pres. err. DSMAX  DPMAX
+  No.   Days IT T Days   yy:mm:dd    M3/D    MM3/D     M3/D     M3    %    MM3/D     M3/D    kPa   %           kPa
+ ------ ---- -- - ----- ---------- -------- -------- -------- ----- ----- -------- -------- ----- ---- ------ -----
+   101w 31.0 2  0  1461 2020:06:01 242.5916 6.290452 560.8317 25.93 69.81          246.0645  7479 .04w -.026o  16.1
+   102w 30.0 2  0  1491 2020:07:01 239.2118 6.204951 564.2115 25.94 70.23          246.0645  7478 .04w  .026w  17.8
+   103w 31.0 2  0  1522 2020:08:01 235.9101 6.121350 567.5132 25.95 70.64          246.0645  7477 .04w  .028w -32.1
+   104w 31.0 2  0  1553 2020:09:01 232.6748 6.039204 570.7485 25.96 71.04          246.0645  7476 .04w -.028o  11.6
+   105w 30.0 2  0  1583 2020:10:01 229.6152 5.961357 573.8081 25.96 71.42          246.0645  7475 .04w -.027o -16.9
+   106w 31.0 2  0  1614 2020:11:01 226.5879 5.884242 576.8354 25.97 71.80          246.0645  7474 .04w -.025o -39.9
+   107w 30.0 2  0  1644 2020:12:01 223.7637 5.812285 579.6596 25.98 72.15          246.0645  7473 .04w  .028w  16.5
+   108w 31.0 2  0  1675 2021:01:01 221.2219 5.747195 582.2014 25.98 72.47          246.0645  7472 .04w -.027o  14.8
+   109w 31.0 2  0  1706 2021:02:01 218.5591 5.679239 584.8642 25.98 72.80          246.0645  7471 .04w -.033o -12.7
+   110w 28.0 2  0  1734 2021:03:01 216.1285 5.617355 587.2948 25.99 73.10          246.0645  7470 .04w -.046o -14.2
+   111w 31.0 2  0  1765 2021:04:01 213.5210 5.551035 589.9023 26.00 73.42          246.0645  7469 .04w -.046o -52.4
+   112w 30.0 2  0  1795 2021:05:01 210.9911 5.486676 592.4322 26.00 73.74          246.0645  7468 .04w -.058o -56.8
+   113w 31.0 2  0  1826 2021:06:01 208.5101 5.423586 594.9132 26.01 74.05          246.0645  7467 .04w -.053o  28.7
+   114w 30.0 2  0  1856 2021:07:01 206.1661 5.364052 597.2572 26.02 74.34          246.0645  7466 .04w  .073w -28.6
+   115w 31.0 3  0  1887 2021:08:01 202.9278 5.282586 600.4955 26.03 74.74          246.0645  7466 .04w  .058w -45.5
+   116w 31.0 2  0  1918 2021:09:01 199.4456 5.195133 603.9778 26.05 75.18          246.0645  7465 .04w  .058w -66.5
+   117w 30.0 2  0  1948 2021:10:01 196.3031 5.116001 607.1202 26.06 75.57          246.0645  7464 .04w  .054w -98.8
+   118w 31.0 2  0  1979 2021:11:01 192.8414 5.028208 610.5819 26.07 76.00          246.0645  7463 .04w  .035w  17.4
+   119w 30.0 2  0  2009 2021:12:01 189.6813 4.947651 613.7421 26.08 76.39          246.0645  7463 .04w  .020w -14.5
+   120w 31.0 2  0  2040 2022:01:01 186.8006 4.874110 616.6227 26.09 76.75          246.0645  7462 .04w  .020w  -132
+
+                                    I M E X   T I M E   S T E P   S U M M A R Y
+ ==================================================================================================================
+    Time Step           Time                  Total Production             Total Injection  Total Max. Max. Change
+ ---------------- ---------------- -------------------------------------- -----------------  PV   Mat. ------------
+                C                    Oil      Gas     Water   GOR.  Wat.    Gas     Water   Avg.  bal. Satur. Pres.
+        Size    U                                              M3/   Cut                    Pres. err. DSMAX  DPMAX
+  No.   Days IT T Days   yy:mm:dd    M3/D    MM3/D     M3/D     M3    %    MM3/D     M3/D    kPa   %           kPa
+ ------ ---- -- - ----- ---------- -------- -------- -------- ----- ----- -------- -------- ----- ---- ------ -----
+   121w 31.0 2  0  2071 2022:02:01 184.1868 4.807365 619.2365 26.10 77.07          246.0645  7461 .04w  .019w  -158
+   122w 28.0 2  0  2099 2022:03:01 181.9475 4.750120 621.4758 26.11 77.35          246.0645  7461 .04w  .016o  41.8
+   123w 31.0 2  0  2130 2022:04:01 179.6516 4.691332 623.7718 26.11 77.64          246.0645  7460 .04w  .018o -13.1
+   124w 30.0 2  0  2160 2022:05:01 177.4925 4.635992 625.9308 26.12 77.91          246.0645  7460 .04w  .017o -6.97
+   125w 31.0 2  0  2191 2022:06:01 175.4048 4.582437 628.0185 26.12 78.17          246.0645  7459 .04w  .018o -29.2
+   126w 30.0 2  0  2221 2022:07:01 173.4501 4.532270 629.9732 26.13 78.41          246.0645  7458 .04w  .017o -18.0
+   127w 31.0 2  0  2252 2022:08:01 171.5021 4.482208 631.9212 26.14 78.65          246.0645  7458 .04w  .017o  4.65
+   128w 31.0 2  0  2283 2022:09:01 169.6145 4.433663 633.8088 26.14 78.89          246.0645  7457 .03w  .017o -4.25
+   129w 30.0 2  0  2313 2022:10:01 167.8331 4.387813 635.5902 26.14 79.11          246.0645  7456 .03w  .015o -6.36
+   130w 31.0 2  0  2344 2022:11:01 166.2216 4.346084 637.2017 26.15 79.31          246.0645  7455 .03w  .015o -7.29
+   131w 30.0 2  0  2374 2022:12:01 164.5615 4.303175 638.8618 26.15 79.52          246.0645  7455 .03w  .014o -35.4
+   132w 31.0 2  0  2405 2023:01:01 162.8768 4.259648 640.5466 26.15 79.73          246.0645  7454 .03w -.014o  -9.7
+   133w 31.0 2  0  2436 2023:02:01 161.2302 4.217117 642.1932 26.16 79.93          246.0645  7453 .03w -.015o -7.66
+   134w 28.0 2  0  2464 2023:03:01 159.7584 4.179119 643.6649 26.16 80.12          246.0645  7453 .03w  .015w -22.0
+   135w 31.0 2  0  2495 2023:04:01 158.2089 4.139089 645.2144 26.16 80.31          246.0645  7452 .03w  .019w -45.0
+   136w 30.0 2  0  2525 2023:05:01 156.7322 4.100951 646.6911 26.17 80.49          246.0645  7452 .03w  .020w -59.8
+   137w 31.0 2  0  2556 2023:06:01 155.2511 4.062685 648.1722 26.17 80.68          246.0645  7451 .03w  .020w -56.3
+   138w 30.0 2  0  2586 2023:07:01 153.8406 4.026251 649.5827 26.17 80.85          246.0645  7451 .03w -.019o -26.7
+   139w 31.0 2  0  2617 2023:08:01 152.4207 3.989559 651.0026 26.17 81.03          246.0645  7450 .03w -.035o -21.6
+   140w 31.0 2  0  2648 2023:09:01 151.0182 3.953320 652.4051 26.18 81.20          246.0645  7450 .03w -.036o -25.6
+
+                                    I M E X   T I M E   S T E P   S U M M A R Y
+ ==================================================================================================================
+    Time Step           Time                  Total Production             Total Injection  Total Max. Max. Change
+ ---------------- ---------------- -------------------------------------- -----------------  PV   Mat. ------------
+                C                    Oil      Gas     Water   GOR.  Wat.    Gas     Water   Avg.  bal. Satur. Pres.
+        Size    U                                              M3/   Cut                    Pres. err. DSMAX  DPMAX
+  No.   Days IT T Days   yy:mm:dd    M3/D    MM3/D     M3/D     M3    %    MM3/D     M3/D    kPa   %           kPa
+ ------ ---- -- - ----- ---------- -------- -------- -------- ----- ----- -------- -------- ----- ---- ------ -----
+   141w 30.0 2  0  2678 2023:10:01 149.6826 3.918812 653.7408 26.18 81.37          246.0645  7449 .03w  .027w -33.4
+   142w 31.0 2  0  2709 2023:11:01 148.3418 3.884155 655.0815 26.18 81.54          246.0645  7448 .03w  .040w -5.48
+   143w 30.0 2  0  2739 2023:12:01 146.8395 3.845327 656.5838 26.19 81.72          246.0645  7448 .03w  .031w  5.14
+   144w 31.0 2  0  2770 2024:01:01 145.0109 3.798027 658.4124 26.19 81.95          246.0645  7447 .03w  .026w   9.6
+   145w 31.0 2  0  2801 2024:02:01 143.2487 3.752427 660.1746 26.20 82.17          246.0645  7447 .03w  .024w -13.4
+   146w 29.0 2  0  2830 2024:03:01 141.7028 3.712415 661.7205 26.20 82.36          246.0645  7447 .03w  .019w -56.9
+   147w 31.0 2  0  2861 2024:04:01 140.2047 3.673607 663.2186 26.20 82.55          246.0645  7446 .03w -.019o  4.52
+   148w 30.0 2  0  2891 2024:05:01 138.8713 3.639070 664.5520 26.20 82.72          246.0645  7446 .03w -.018o -3.50
+   149w 31.0 2  0  2922 2024:06:01 137.6073 3.606326 665.8160 26.21 82.87          246.0645  7445 .03w -.019o -16.6
+
+ ===================== SUMMARY (from subroutine: TSIO)   ======================
+  Simulation run terminated. Stopping time reached.
+    
+   103 Warning messages.    0 Error messages.
+ ==============================================================================
+
+
+       Field Total                             Fluid
+                             Oil       Gas       Water    Solvent   Polymer 
+                            -------   -------   -------   -------   -------
+                            (MSM3)    (MMSM3)   (MSM3)    (MMSM3)   (MKG) 
+  Cumulative Production      849.90    22.125    1311.4     NA        NA   
+  Cumulative Injection        NA      -81e-20    707.84     NA        NA   
+  Cumulative Gas Lift         NA         0        NA        NA        NA   
+  Cumulative Water Influx     NA        NA       1210.9     NA        NA   
+  Current Fluids In Place     10691    560.49     19252     NA        NA   
+  Production Rates           .13761    .00361    .66582     NA        NA   
+  Injection Rates             NA         0       .24606     NA        NA   
+
+  Timesteps:    149  Newton Cycles:      404  Cuts:      1  Solver Iterations:         6189
+  Average Implicitness    : 0.054
+  Material Balances (owg ): 1.000 1.000 1.000
+  Average Active Blocks:       18996 Average Non-BHP Active Wells:     5
+  Total Blocks :       27664 Total Wells :     8
+  Active Blocks:       18996 Non-BHP Active Wells:     6
+  Total lstpro/lstpar calls:    12
+  Time at end of simulation:   2922.00     (days) 
+  Average reservoir pressure excluding water zone: 7304.633 (kPa)    
+  Total Number of Solver Failures:       0  Stalls:       0  ITERMAX Reached:       0
+  Jacobian Domains      1
+  Linear Solver: Aimsol
+  Preconditioner Ordering     REDBLACK
+  Preconditioner Degree           1
+  KMP_AFFINITY: Default
+  OMP_SCHEDULE: Default
+  Max Impl Blocks:     1566  %Impl:  8.2%  (TS,CUT,NCYC): (  149, 0,  2 )
+  Max Solver Iterations (TS,CUT,NCYC):  24 (   69, 0,  4 )
+  Number of threads set:    1
+  Total number of cpus:    4
+  Memory Usage Peak:       98 MB on TS:  149  TS 1 Peak:       78 MB  Average:       86 MB  VM Size:      103 MB
+  Host computer: DESKTOP-6029L07
+
+  End of Simulation: Normal Termination   
+
+  CPU Time:            58.08 seconds
+  Elapsed Time:        68.77 seconds
+
+  Date and Time of End of Run:  Apr 10, 2023  20:35:47
+

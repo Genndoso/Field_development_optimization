@@ -1,0 +1,33 @@
+    Opened LOG FILE         on unit 10, filename is 'C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model_upscaling2_5_3.log'
+ ********************************************************************************
+ *                                                                              *
+ *                                IMEX  2016.10                                 *
+ *                   Adaptive - Implicit Black Oil Simulator                    *
+ *                         General Release for Win x64                          *
+ *                            2016-Aug-04   16:56:07                            *
+ *                                                                              *
+ *                          (c) Copyright 1977 - 2016                           *
+ *                Computer Modelling Group Ltd., Calgary, Canada                *
+ *                             All Rights Reserved                              *
+ *                                                                              *
+ ********************************************************************************
+
+
+ Command-line Arguments:  -dimsum
+                          -wd C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2
+                          -log
+                          -f C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model_upscaling2_5_3.dat
+
+ Date and Time of Start of Run:  Apr 10, 2023  16:58:39
+
+
+*** Input/Output files specification :
+
+... STOP : Unable to open the following file as data file:
+           'C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model_upscaling2_5_3.dat'
+           Check pathname for spaces, special characters or a total length greater than 256 characters.
+
+           Cannot find data file named 'C:\Users\Максимилиан\Desktop\Хакатоны, тестнеты\Sirius2023\RL_Sirius\RL2\model_upscaling2_5_3.dat'
+
+  Date and Time of End of Run:  Apr 10, 2023  16:58:39
+
